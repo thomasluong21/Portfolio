@@ -1,0 +1,58 @@
+.pdf {
+    background: linear-gradient(135deg, #0E0D0D, #E0E0E0);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    text-align: center;
+    cursor: pointer;
+    transition: background 1s ease-in-out, transform 0.5s ease-in-out;
+
+    /* Hover state */
+    &:hover {
+        background: linear-gradient(135deg, #0E0D0D, #15b946);
+        transform: scale(1.1);
+    }
+}
+
+
+.pdf-icon {
+    font-size: 48px;
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+
+.competitive_company_bg{
+    background-color: rgb(198, 206, 212);
+    margin-bottom: 19px;
+    border-radius: 0.5rem;
+
+    .brands_cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    p{
+        // background-color: rebeccapurple;
+        color: var(--Primary-Colour);
+        span{
+            display: block;
+            font-size: .9rem;
+            font-weight: 400;
+            margin: .5rem 0 1rem;
+        }
+    }
+}
+
+.competitive_company{
+    margin: auto;
+    width: 50%;
+
+    img{
+        height: 150px;
+        object-fit: contain;
+    }
+}

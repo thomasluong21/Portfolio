@@ -1,0 +1,149 @@
+.card{
+  background-color: #202020;
+  transition: transform 0.3s, box-shadow 0.3s;
+  
+  &:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+
+    img {
+      opacity: 0.65;
+      transition: opacity 1s ease; /* Adjust duration and easing as needed */
+    }
+
+  }
+
+
+  .asd{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+    div{
+      img{
+        border-radius: 10px;
+        // height: 285px; // ask arrick about this
+        width: 100%;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+      }
+    }
+
+    a{
+      text-decoration: none;
+      &:hover{
+        opacity: 0.7;
+        transition: opacity 1s ease;
+      }
+    }
+  }
+
+  h3{
+    padding-top: var(--padding);
+    padding-left: var(--padding);
+    margin: 0;
+  }
+  
+  h4{
+    color: var(--Secondary-Colour);
+    padding-left: var(--padding);
+    padding-top: 5px;
+  }
+
+  p{
+    padding: var(--padding);
+    margin: 0;
+  }
+
+  a{
+    margin-top: auto;
+  }
+
+}
+
+
+/* CSS - FOR VIEW ALL PROJECTS*/
+.card_button_view{
+  display: inline-block;
+  margin: var(--padding);
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: transform 0.5s ease-in-out;
+  
+  a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    // font-size: 2.0rem;
+  }
+  
+  &:hover{
+    transform: scale(1.1);
+  }
+  
+  &:before{
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: card_button 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  &:after{
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #1b1b1b;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+
+  @keyframes card_button {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+}
+
+
+
+

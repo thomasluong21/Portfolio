@@ -1,0 +1,14 @@
+{
+  "name": "portfilo",
+  "version": "1.0.0",
+  "description": "thomas's portfilo",
+  "main": "index.js",
+  "scripts": {
+    "sass:watch": "npx sass sass/app.scss dist/app.css --style=compressed --watch"
+  },
+  "author": "Thomas",
+  "license": "ISC",
+  "dependencies": {
+    "@picocss/pico": "^2.0.6"
+  }
+}

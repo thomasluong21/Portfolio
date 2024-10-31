@@ -1,0 +1,22 @@
+.no_border-bottom{
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+    border-bottom: unset;
+}
+
+.background{  
+    background-color: rgba(32, 32, 32);
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+}
+
+.white_line{
+    margin-bottom: 5rem;
+    padding-bottom: 5rem;
+    border-bottom: 1px white solid;
+}
+
+.white_line_under_img{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}

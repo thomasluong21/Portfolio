@@ -1,0 +1,31 @@
+// This styles the buttons on the better planet project page
+.final-product-button {
+    transition: background-color 0.5s ease, transform 0.5s ease; /* Longer transition duration */
+    background-color: var(--Secondary-Colour);
+    border: none;
+  
+    a {
+        color: var(--Accent-Colour);
+        text-decoration: none; /* Remove underline */
+        display: block; /* Make the link block-level to fill the button */
+    //   max-width: 80%;
+        // white-space: pre;
+        white-space: normal;
+        @media (max-width: 768px){
+            max-width: 300px;
+        }
+        @media (max-width: 600px){
+            max-width: 150px;
+        }
+    }
+  
+    &:hover {
+      background-color: #45a049; /* Darker green on hover */
+      transform: scale(1.05); /* Slightly enlarge the button on hover */
+    }
+}
+
+.better_planet_green{
+    color: #4E9F8A;
+    font-weight: bold;
+}

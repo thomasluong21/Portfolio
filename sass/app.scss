@@ -1,0 +1,68 @@
+@use "../node_modules/@picocss/pico/scss/pico" with (
+    $enable-classes: true
+);
+
+// This contains all the default styling that is now changed
+@use "theme/base.scss";
+
+// @use '../fonts/';
+
+// Theses are all the components that are used in more than 1 pages
+@use "theme/header.scss";
+
+@use "theme/footer.scss";
+
+@use "theme/button.scss";
+
+@use "theme/line_break.scss";
+
+@use "theme/card.scss";
+
+@use "theme/image_styles.scss";
+
+@use "theme/spacing.scss";
+
+@use "theme/swiper_styles.scss";
+
+@use "theme/display_text.scss";
+
+@use "theme/intersection_nav.scss";
+
+@use "theme/lightbox_plugin.scss";
+
+@use "theme/link.scss";
+
+// @use "theme/swiperjs.scss";
+
+// These are the each individuals pages and their unique styles
+@use "theme/index.scss";
+
+@use "theme/about.scss";
+
+@use "theme/projects.scss";
+
+@use "theme/project1.scss";
+
+@use "theme/project2.scss";
+
+@use "theme/project3.scss";
+
+@use "theme/project4.scss";
+
+@use "theme/project5.scss";
+
+@use "theme/project6.scss";
+
+
+
+
+
+
+
+
+
+
+
+
+
+

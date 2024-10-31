@@ -1,0 +1,80 @@
+:root {
+    --padding: 1rem;
+    --Primary-Colour: #0E0D0D;
+    --Secondary-Colour: #6541CD;
+    --Accent-Colour: #F9F9F9;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+}
+
+@font-face {
+    font-family: 'batman';
+    src: url('../../fonts/batmfa__.woff') format('woff2'),
+         url('../../fonts/batmfo__.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: #2D364C;
+}
+  
+h1{
+    --pico-font-family: "Titillium Web", sans-serif;
+    --pico-font-style: normal;
+    --pico-font-weight: 700;
+    line-height: normal;
+    color: var(--Accent-Colour);
+}
+
+h2{
+    --pico-font-family: "Titillium Web", sans-serif;
+    --pico-font-style: normal;
+    --pico-font-weight: 600;
+    --pico-line-height: normal;
+    color: var(--Accent-Colour);
+}
+
+h3{
+    --pico-font-family: "Titillium Web", sans-serif;
+    --pico-font-style: normal;
+    --pico-font-weight: 600;
+    line-height: normal;
+    color: var(--Accent-Colour);
+}
+
+h4{
+    --pico-font-family: "Titillium Web", sans-serif;
+    --pico-font-style: normal;
+    --pico-font-weight: 600;
+    line-height: normal;
+    color: var(--Accent-Colour);
+}
+
+h5{
+    --pico-font-family: "Titillium Web", sans-serif;
+    font-style: normal;
+    --pico-font-weight: 600;
+    line-height: normal;
+    color: var(--Accent-Colour);
+}
+
+p{
+    --pico-font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    --pico-font-weight: 100;
+    color: var(--Accent-Colour);
+    line-height: 1.7;
+}
+
+ul li{
+    --pico-font-family: "Titillium Web", sans-serif;
+    color: var(--Accent-Colour);
+    --pico-font-weight: 100;
+}
+
+ol li{
+    --pico-font-family: "Titillium Web", sans-serif;
+    color: var(--Accent-Colour);
+    --pico-font-weight: 100;
+}

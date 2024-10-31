@@ -1,0 +1,136 @@
+.header{
+    padding: 0;
+    nav{
+        max-width: 1450px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        overflow: hidden;
+        background-color: var(--Primary-Colour);
+        text-align: center;
+        display: block;
+        width: 100%;
+        .nav_logo{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        
+            a{
+                color: var(--Accent-Colour);
+            }
+        }
+
+        li:hover{
+            background-color: var(--Secondary-Colour);
+        }
+
+        a:hover{
+            text-decoration: none;
+            // color: var(--Secondary-Colour);
+        }
+    }
+}
+
+.full_width{
+    background-color: var(--Primary-Colour);
+}
+
+.logo{
+    width: 100px;
+    padding: 1rem;
+}
+
+nav ul{
+    flex-direction: column;
+    overflow-y: hidden;
+    max-height: 0;
+}
+
+nav ul li{                    
+    border-bottom: 1px solid #ddd;
+    text-decoration: none;
+    width: 100%;
+    a{
+        color: white;
+    }
+}
+
+#hamburger{
+    align-items: center;
+    padding-right: 1.5rem;
+    &:hover{
+        color: unset;
+    }
+}
+
+// a#hamburger:hover{
+//     background-color: #ffffff;
+//     color: #000000; 
+// }
+
+nav.toggleMenu ul{
+/* display: flex; */
+    max-height: 50vh;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+i.hide{
+    display:none;
+}
+
+@media screen and (min-width: 601px){
+    /* rules apply when screen size is 600px to 991px */
+
+
+    /* ============== Nav Styling ==============*/
+    /* .nav_logo{ */
+        /* display: none; */
+        /* justify-content: space-between; */
+        /* justify-content: none; */
+        /* background-color: #0011ad; */
+    /* } */
+    
+
+    .desktop-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header{
+
+        nav{
+            padding-right: 1.5rem;
+            li:hover{
+                background-color: unset;
+                color: var(--Secondary-Colour);
+            }
+            a:hover{
+                color: var(--Secondary-Colour);
+            }
+        }
+    }
+
+    .logo{
+        max-width: 250px;
+    }
+
+    
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        max-height: 100vh;
+    }
+        
+    nav ul li{
+        border: 0;
+    }
+
+    #hamburger{
+        display: none;
+    }
+}  
