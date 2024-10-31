@@ -4,15 +4,6 @@
 
 This is my digital marketing portfolio, showcasing my skills and experience in helping businesses achieve their online goals. 
 
-**Skills:**
-
-* **Search Engine Optimization (SEO)**
-* **Pay-Per-Click (PPC) Advertising**
-* **Social Media Marketing**
-* **Content Marketing**
-* **Email Marketing**   
-
-* **Data Analytics**
 
 **Connect with Me:**
 
