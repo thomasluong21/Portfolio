@@ -130,6 +130,9 @@ i.hide{
         
     nav ul li{
         border: 0;
+        a{
+            width: unset;
+        }
     }
 
     #hamburger{
