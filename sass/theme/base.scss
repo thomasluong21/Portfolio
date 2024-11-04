@@ -6,14 +6,6 @@
     --font-body: 'Plus Jakarta Sans', sans-serif;
 }
 
-@font-face {
-    font-family: 'batman';
-    src: url('../../fonts/batmfa__.woff') format('woff2'),
-         url('../../fonts/batmfo__.ttf') format('ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
 html {
     scroll-behavior: smooth;
     background-color: #303646;
