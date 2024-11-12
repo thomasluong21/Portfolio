@@ -8,7 +8,7 @@
 
     img {
       opacity: 0.65;
-      transition: opacity 1s ease; /* Adjust duration and easing as needed */
+      transition: opacity 1s ease;
     }
 
   }
@@ -22,7 +22,6 @@
     div{
       img{
         border-radius: 10px;
-        // height: 285px; // ask arrick about this
         width: 100%;
         aspect-ratio: 16/9;
         object-fit: cover;
@@ -53,6 +52,7 @@
   p{
     padding: var(--padding);
     margin: 0;
+    font-weight: 250;
   }
 
   a{
@@ -84,7 +84,6 @@
     text-decoration: none;
     color: white;
     display: block;
-    // font-size: 2.0rem;
   }
   
   &:hover{

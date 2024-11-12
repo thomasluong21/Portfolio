@@ -50,13 +50,12 @@
     color: #18ff18;
     font-weight: 450;
 }
+.green_no_bold{
+    color: #18ff18;
+}
 
 .emoji{
     font-size: 2rem;
-}
-
-.green_no_bold{
-    color: #18ff18;
 }
 
 .highlight_text{
@@ -67,6 +66,27 @@
     font-weight: 450;
 }
 
+.light_blue{
+    color: #34fcff;
+    font-weight: bold;
+}
+
+.red{
+    color: rgb(255, 32, 32);
+    font-weight: 550;
+}
+
+.rainbow{
+    background: -webkit-linear-gradient(left, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #8B00FF, #FF00FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.forest_green{
+    color: rgb(17, 128, 17);
+    font-weight: 800;
+}
 
 .bold{
     font-weight: bold;
