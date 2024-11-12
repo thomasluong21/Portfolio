@@ -1,4 +1,4 @@
-var mySwiper = new Swiper('.swiper-container', {
+var mySwiper = new Swiper('.slider--fading-slide', {
     loop: true,
     speed: 1000,
     autoplay: {

@@ -1,4 +1,4 @@
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".slider--single-slide", {
     autoplay: {
     delay: 3000, // Adjust the delay (milliseconds)
     disableOnInteraction: false, // Keep autoplay on interaction
