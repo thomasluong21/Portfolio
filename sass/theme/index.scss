@@ -11,7 +11,7 @@
   max-width: 1450px;
   margin-left: auto;
   margin-right: auto;
-  height: 500px;
+  // height: 500px;
   padding: var(--padding);
   
   .animate-text span {
@@ -21,7 +21,7 @@
 
   .profile_picture{
     clip-path: polygon(26.2% 0%, 100% 0%, 73.8% 100%, 0% 100%);
-    height: 500px;
+    // height: 500px;
   }
   
   p{
@@ -39,19 +39,19 @@
         height: 150px;
         width: 330px;
         object-fit: cover;
+        object-position: center top;
       }
     }
   }
   
 }
 
-// Font for index for batman's utility belt
-@font-face {
-  font-family: "batma";
-  src: url("../../fonts/batmfa__.ttf");
-}
+// @media screen and (max-height: 650px) {
+//   .intro{
+//     height: 500px;
+//   }
 
-
-.batman{
-  font-family: 'batman';
-}
+//   .profile_picture{
+//     height: 500px;
+//   }
+// }
