@@ -1,11 +1,11 @@
 .about_bg {
-  height: 400px; /* Adjust height as necessary */
+  height: 400px; 
   position: relative;
   text-align: center;
   color: white;
   max-width: 1450px;
-  margin-left: auto;
-  margin-right: auto;
+  // margin-left: auto;
+  // margin-right: auto;
 
   .content {
     position: relative;
@@ -115,3 +115,14 @@ details summary[role=button]{
 }
 
 
+@media screen and (max-height: 700px) and (min-width: 375px) {
+  .about_bg{
+    height: unset;
+    margin: 0;
+    padding-top: 1rem;
+  }
+  .about_bg_img{
+    display: none;
+    background-color: cadetblue;
+  }
+}
