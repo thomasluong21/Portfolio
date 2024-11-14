@@ -46,12 +46,12 @@
   
 }
 
-// @media screen and (max-height: 650px) {
-//   .intro{
-//     height: 500px;
-//   }
+@media screen and (max-height: 750px) and (min-width: 1080px) {
+  .intro{
+    height: 500px;
+  }
 
-//   .profile_picture{
-//     height: 500px;
-//   }
-// }
+  .profile_picture{
+    height: 500px;
+  }
+}
